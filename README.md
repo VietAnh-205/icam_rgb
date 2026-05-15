@@ -82,7 +82,7 @@ pytz
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/<your-username>/ICAM-RBF.git
+git clone https://github.com/VietAnh-205/ICAM-RBF.git
 cd ICAM-RBF
 ```
 
