@@ -1,0 +1,331 @@
+[2026-05-07 12:21:36] cvrp_train_vst_n100_to_n500.py(161) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2026-05-07 12:21:36] cvrp_train_vst_n100_to_n500.py(162) : env_params{'min_problem_size': 100, 'max_problem_size': 500, 'min_capacity': 50, 'max_capacity': 100}
+[2026-05-07 12:21:36] cvrp_train_vst_n100_to_n500.py(162) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 12, 'logit_clipping': 50, 'ff_hidden_dim': 512, 'eval_type': 'sampling'}
+[2026-05-07 12:21:36] cvrp_train_vst_n100_to_n500.py(162) : optimizer_params{'optimizer': {'lr': 0.0001}, 'lr_decay_epoch': 801}
+[2026-05-07 12:21:36] cvrp_train_vst_n100_to_n500.py(162) : trainer_params{'use_cuda': True, 'cuda_device_num': 0, 'epochs': 1000, 'stage1_epochs': 100, 'batches_per_epoch': 1000, 'stage1_batch_size': 32, 'vst_base_batch_size': 32, 'logging': {'model_save_interval': 1, 'log_image_params_1': {'json_foldername': 'log_image_style', 'filename': 'style_score.json'}, 'log_image_params_2': {'json_foldername': 'log_image_style', 'filename': 'style_loss.json'}}, 'model_load': {'enable': True, 'path': './result_cvrp_models/20260505_102205_icam_cvrp100_to_500_epoch1000', 'epoch': 119}, 'max_norm': 5.0, 'k_value': 20, 'beta': 0.1}
+[2026-05-07 12:21:36] cvrp_train_vst_n100_to_n500.py(162) : logger_params{'log_file': {'desc': 'icam_cvrp100_to_500_epoch1000', 'filename': 'run_log.txt', 'filepath': './result_cvrp_models/20260507_202136_icam_cvrp100_to_500_epoch1000'}}
+[2026-05-07 12:21:45] CVRPTrainer.py(61) : Saved Model Loaded !!
+[2026-05-07 12:21:45] CVRPTrainer.py(62) : Model loaded from: ./result_cvrp_models/20260505_102205_icam_cvrp100_to_500_epoch1000/checkpoint-119.pt
+[2026-05-07 12:21:52] CVRPTrainer.py(69) : Successfully load 10000 CVRP100 instances, optimal: 15.6466
+[2026-05-07 12:21:53] CVRPTrainer.py(74) : Successfully load 128 CVRP1000 instances, optimal: 37.0905
+[2026-05-07 12:21:55] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 12:21:55] CVRPTrainer.py(89) :  Epoch  120: Current learning rate: 0.0001
+[2026-05-07 12:21:58] CVRPTrainer.py(169) : Epoch  120: Trained batches    1/1000(  0.1%), Score: 46.6077,  Loss: -0.8527
+[2026-05-07 12:22:00] CVRPTrainer.py(169) : Epoch  120: Trained batches    2/1000(  0.2%), Score: 38.5862,  Loss: -0.7204
+[2026-05-07 12:22:02] CVRPTrainer.py(169) : Epoch  120: Trained batches    3/1000(  0.3%), Score: 38.5476,  Loss: -0.7305
+[2026-05-07 12:22:03] CVRPTrainer.py(169) : Epoch  120: Trained batches    4/1000(  0.4%), Score: 31.8912,  Loss: -0.4984
+[2026-05-07 12:22:03] CVRPTrainer.py(169) : Epoch  120: Trained batches    5/1000(  0.5%), Score: 26.2698,  Loss: -0.4380
+[2026-05-07 12:25:48] CVRPTrainer.py(169) : Epoch  120: Trained batches  200/1000( 20.0%), Score: 22.5761,  Loss: -0.4364
+[2026-05-07 12:29:28] CVRPTrainer.py(169) : Epoch  120: Trained batches  400/1000( 40.0%), Score: 21.9825,  Loss: -0.4390
+[2026-05-07 12:33:25] CVRPTrainer.py(169) : Epoch  120: Trained batches  600/1000( 60.0%), Score: 22.0468,  Loss: -0.4429
+[2026-05-07 12:37:10] CVRPTrainer.py(169) : Epoch  120: Trained batches  800/1000( 80.0%), Score: 22.3082,  Loss: -0.4496
+[2026-05-07 12:40:58] CVRPTrainer.py(169) : Epoch  120: Trained batches 1000/1000(100.0%), Score: 22.1615,  Loss: -0.4466
+[2026-05-07 12:40:58] CVRPTrainer.py(174) : Epoch  120: Train (100%)  Score: 22.1615,  Loss: -0.4466
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 0 γ = 1.2749
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 1 γ = 1.5778
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 2 γ = 1.5911
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 3 γ = 1.3906
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 4 γ = 1.4599
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 5 γ = 1.4851
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 6 γ = 1.2829
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 7 γ = 1.3510
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 8 γ = 1.3977
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 9 γ = 1.4146
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 10 γ = 1.3780
+[2026-05-07 12:40:58] CVRPTrainer.py(181) :   Encoder layer 11 γ = 1.3705
+[2026-05-07 12:40:58] CVRPTrainer.py(182) :   Decoder γ = 0.4966
+[2026-05-07 12:41:24] CVRPTrainer.py(290) : Epoch  120: (No aug)In 100-nodes instances, multi-greedy score: 16.4000, Gap: 4.8151%
+[2026-05-07 12:43:37] CVRPTrainer.py(290) : Epoch  120: (No aug)In 1000-nodes instances, multi-greedy score: 44.0217, Gap: 18.6874%
+[2026-05-07 12:43:37] CVRPTrainer.py(106) : Epoch  120/1000: Time Est.: Elapsed[21.70m], Remain[318.22h]
+[2026-05-07 12:43:37] CVRPTrainer.py(114) : Saving log_image
+[2026-05-07 12:43:37] CVRPTrainer.py(123) : Saving trained_model
+[2026-05-07 12:43:37] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 12:43:37] CVRPTrainer.py(89) :  Epoch  121: Current learning rate: 0.0001
+[2026-05-07 12:43:39] CVRPTrainer.py(169) : Epoch  121: Trained batches    1/1000(  0.1%), Score: 39.4060,  Loss: -0.3844
+[2026-05-07 12:43:41] CVRPTrainer.py(169) : Epoch  121: Trained batches    2/1000(  0.2%), Score: 37.9847,  Loss: -0.4354
+[2026-05-07 12:43:42] CVRPTrainer.py(169) : Epoch  121: Trained batches    3/1000(  0.3%), Score: 31.3800,  Loss: -0.4497
+[2026-05-07 12:43:43] CVRPTrainer.py(169) : Epoch  121: Trained batches    4/1000(  0.4%), Score: 32.4105,  Loss: -0.4650
+[2026-05-07 12:43:44] CVRPTrainer.py(169) : Epoch  121: Trained batches    5/1000(  0.5%), Score: 30.2465,  Loss: -0.4971
+[2026-05-07 12:47:24] CVRPTrainer.py(169) : Epoch  121: Trained batches  200/1000( 20.0%), Score: 23.3264,  Loss: -0.4812
+[2026-05-07 12:51:06] CVRPTrainer.py(169) : Epoch  121: Trained batches  400/1000( 40.0%), Score: 22.5724,  Loss: -0.4614
+[2026-05-07 12:54:48] CVRPTrainer.py(169) : Epoch  121: Trained batches  600/1000( 60.0%), Score: 22.8957,  Loss: -0.4556
+[2026-05-07 12:58:35] CVRPTrainer.py(169) : Epoch  121: Trained batches  800/1000( 80.0%), Score: 23.0807,  Loss: -0.4591
+[2026-05-07 13:02:13] CVRPTrainer.py(169) : Epoch  121: Trained batches 1000/1000(100.0%), Score: 22.6463,  Loss: -0.4514
+[2026-05-07 13:02:13] CVRPTrainer.py(174) : Epoch  121: Train (100%)  Score: 22.6463,  Loss: -0.4514
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 0 γ = 1.2740
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 1 γ = 1.5801
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 2 γ = 1.5929
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 3 γ = 1.3905
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 4 γ = 1.4627
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 5 γ = 1.4869
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 6 γ = 1.2821
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 7 γ = 1.3498
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 8 γ = 1.3981
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 9 γ = 1.4155
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 10 γ = 1.3784
+[2026-05-07 13:02:13] CVRPTrainer.py(181) :   Encoder layer 11 γ = 1.3712
+[2026-05-07 13:02:13] CVRPTrainer.py(182) :   Decoder γ = 0.4974
+[2026-05-07 13:02:40] CVRPTrainer.py(290) : Epoch  121: (No aug)In 100-nodes instances, multi-greedy score: 16.3818, Gap: 4.6990%
+[2026-05-07 13:04:51] CVRPTrainer.py(290) : Epoch  121: (No aug)In 1000-nodes instances, multi-greedy score: 44.0376, Gap: 18.7303%
+[2026-05-07 13:04:52] CVRPTrainer.py(106) : Epoch  121/1000: Time Est.: Elapsed[42.94m], Remain[314.55h]
+[2026-05-07 13:04:52] CVRPTrainer.py(114) : Saving log_image
+[2026-05-07 13:04:52] CVRPTrainer.py(123) : Saving trained_model
+[2026-05-07 13:04:52] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 13:04:52] CVRPTrainer.py(89) :  Epoch  122: Current learning rate: 0.0001
+[2026-05-07 13:04:53] CVRPTrainer.py(169) : Epoch  122: Trained batches    1/1000(  0.1%), Score: 24.3826,  Loss: -0.6510
+[2026-05-07 13:04:54] CVRPTrainer.py(169) : Epoch  122: Trained batches    2/1000(  0.2%), Score: 28.2151,  Loss: -0.6546
+[2026-05-07 13:04:55] CVRPTrainer.py(169) : Epoch  122: Trained batches    3/1000(  0.3%), Score: 24.8123,  Loss: -0.5567
+[2026-05-07 13:04:55] CVRPTrainer.py(169) : Epoch  122: Trained batches    4/1000(  0.4%), Score: 19.2791,  Loss: -0.4399
+[2026-05-07 13:04:56] CVRPTrainer.py(169) : Epoch  122: Trained batches    5/1000(  0.5%), Score: 19.3357,  Loss: -0.4214
+[2026-05-07 13:08:34] CVRPTrainer.py(169) : Epoch  122: Trained batches  200/1000( 20.0%), Score: 21.2466,  Loss: -0.4262
+[2026-05-07 13:12:33] CVRPTrainer.py(169) : Epoch  122: Trained batches  400/1000( 40.0%), Score: 22.0472,  Loss: -0.4415
+[2026-05-07 13:16:14] CVRPTrainer.py(169) : Epoch  122: Trained batches  600/1000( 60.0%), Score: 21.7317,  Loss: -0.4365
+[2026-05-07 13:20:01] CVRPTrainer.py(169) : Epoch  122: Trained batches  800/1000( 80.0%), Score: 22.0155,  Loss: -0.4401
+[2026-05-07 13:23:40] CVRPTrainer.py(169) : Epoch  122: Trained batches 1000/1000(100.0%), Score: 21.9237,  Loss: -0.4324
+[2026-05-07 13:23:40] CVRPTrainer.py(174) : Epoch  122: Train (100%)  Score: 21.9237,  Loss: -0.4324
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 0 γ = 1.2712
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 1 γ = 1.5821
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 2 γ = 1.5917
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 3 γ = 1.3914
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 4 γ = 1.4637
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 5 γ = 1.4885
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 6 γ = 1.2840
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 7 γ = 1.3504
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 8 γ = 1.3969
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 9 γ = 1.4162
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 10 γ = 1.3788
+[2026-05-07 13:23:40] CVRPTrainer.py(181) :   Encoder layer 11 γ = 1.3720
+[2026-05-07 13:23:40] CVRPTrainer.py(182) :   Decoder γ = 0.4984
+[2026-05-07 13:24:07] CVRPTrainer.py(290) : Epoch  122: (No aug)In 100-nodes instances, multi-greedy score: 16.3812, Gap: 4.6950%
+[2026-05-07 13:26:18] CVRPTrainer.py(290) : Epoch  122: (No aug)In 1000-nodes instances, multi-greedy score: 43.5875, Gap: 17.5168%
+[2026-05-07 13:26:18] CVRPTrainer.py(106) : Epoch  122/1000: Time Est.: Elapsed[1.07h], Remain[314.06h]
+[2026-05-07 13:26:18] CVRPTrainer.py(114) : Saving log_image
+[2026-05-07 13:26:18] CVRPTrainer.py(123) : Saving trained_model
+[2026-05-07 13:26:19] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 13:26:19] CVRPTrainer.py(89) :  Epoch  123: Current learning rate: 0.0001
+[2026-05-07 13:26:20] CVRPTrainer.py(169) : Epoch  123: Trained batches    1/1000(  0.1%), Score: 26.5979,  Loss: -0.5367
+[2026-05-07 13:26:21] CVRPTrainer.py(169) : Epoch  123: Trained batches    2/1000(  0.2%), Score: 26.5599,  Loss: -0.4668
+[2026-05-07 13:26:23] CVRPTrainer.py(169) : Epoch  123: Trained batches    3/1000(  0.3%), Score: 28.7678,  Loss: -0.5819
+[2026-05-07 13:26:24] CVRPTrainer.py(169) : Epoch  123: Trained batches    4/1000(  0.4%), Score: 29.7377,  Loss: -0.6416
+[2026-05-07 13:26:26] CVRPTrainer.py(169) : Epoch  123: Trained batches    5/1000(  0.5%), Score: 30.2116,  Loss: -0.6022
+[2026-05-07 13:30:01] CVRPTrainer.py(169) : Epoch  123: Trained batches  200/1000( 20.0%), Score: 21.3330,  Loss: -0.4159
+[2026-05-07 13:33:55] CVRPTrainer.py(169) : Epoch  123: Trained batches  400/1000( 40.0%), Score: 22.4034,  Loss: -0.4370
+[2026-05-07 13:37:34] CVRPTrainer.py(169) : Epoch  123: Trained batches  600/1000( 60.0%), Score: 22.0608,  Loss: -0.4371
+[2026-05-07 13:41:07] CVRPTrainer.py(169) : Epoch  123: Trained batches  800/1000( 80.0%), Score: 21.5652,  Loss: -0.4278
+[2026-05-07 13:44:56] CVRPTrainer.py(169) : Epoch  123: Trained batches 1000/1000(100.0%), Score: 21.6417,  Loss: -0.4277
+[2026-05-07 13:44:56] CVRPTrainer.py(174) : Epoch  123: Train (100%)  Score: 21.6417,  Loss: -0.4277
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 0 γ = 1.2703
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 1 γ = 1.5842
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 2 γ = 1.5959
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 3 γ = 1.3925
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 4 γ = 1.4626
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 5 γ = 1.4903
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 6 γ = 1.2836
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 7 γ = 1.3504
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 8 γ = 1.3973
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 9 γ = 1.4159
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 10 γ = 1.3782
+[2026-05-07 13:44:56] CVRPTrainer.py(181) :   Encoder layer 11 γ = 1.3729
+[2026-05-07 13:44:56] CVRPTrainer.py(182) :   Decoder γ = 0.4991
+[2026-05-07 13:45:22] CVRPTrainer.py(290) : Epoch  123: (No aug)In 100-nodes instances, multi-greedy score: 16.3755, Gap: 4.6587%
+[2026-05-07 13:47:34] CVRPTrainer.py(290) : Epoch  123: (No aug)In 1000-nodes instances, multi-greedy score: 43.6375, Gap: 17.6514%
+[2026-05-07 13:47:34] CVRPTrainer.py(106) : Epoch  123/1000: Time Est.: Elapsed[1.43h], Remain[313.00h]
+[2026-05-07 13:47:34] CVRPTrainer.py(114) : Saving log_image
+[2026-05-07 13:47:35] CVRPTrainer.py(123) : Saving trained_model
+[2026-05-07 13:47:35] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 13:47:35] CVRPTrainer.py(89) :  Epoch  124: Current learning rate: 0.0001
+[2026-05-07 13:47:37] CVRPTrainer.py(169) : Epoch  124: Trained batches    1/1000(  0.1%), Score: 44.4462,  Loss: -0.8039
+[2026-05-07 13:47:38] CVRPTrainer.py(169) : Epoch  124: Trained batches    2/1000(  0.2%), Score: 25.3639,  Loss: -0.3905
+[2026-05-07 13:47:38] CVRPTrainer.py(169) : Epoch  124: Trained batches    3/1000(  0.3%), Score: 21.0206,  Loss: -0.3267
+[2026-05-07 13:47:39] CVRPTrainer.py(169) : Epoch  124: Trained batches    4/1000(  0.4%), Score: 20.9417,  Loss: -0.3659
+[2026-05-07 13:47:40] CVRPTrainer.py(169) : Epoch  124: Trained batches    5/1000(  0.5%), Score: 22.3173,  Loss: -0.3839
+[2026-05-07 13:51:19] CVRPTrainer.py(169) : Epoch  124: Trained batches  200/1000( 20.0%), Score: 22.2382,  Loss: -0.4338
+[2026-05-07 13:55:19] CVRPTrainer.py(169) : Epoch  124: Trained batches  400/1000( 40.0%), Score: 21.8703,  Loss: -0.4236
+[2026-05-07 13:58:57] CVRPTrainer.py(169) : Epoch  124: Trained batches  600/1000( 60.0%), Score: 21.5948,  Loss: -0.4202
+[2026-05-07 14:02:40] CVRPTrainer.py(169) : Epoch  124: Trained batches  800/1000( 80.0%), Score: 21.7841,  Loss: -0.4249
+[2026-05-07 14:06:20] CVRPTrainer.py(169) : Epoch  124: Trained batches 1000/1000(100.0%), Score: 21.6166,  Loss: -0.4225
+[2026-05-07 14:06:20] CVRPTrainer.py(174) : Epoch  124: Train (100%)  Score: 21.6166,  Loss: -0.4225
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 0 γ = 1.2698
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 1 γ = 1.5844
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 2 γ = 1.5954
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 3 γ = 1.3931
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 4 γ = 1.4640
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 5 γ = 1.4908
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 6 γ = 1.2823
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 7 γ = 1.3491
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 8 γ = 1.3987
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 9 γ = 1.4168
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 10 γ = 1.3778
+[2026-05-07 14:06:20] CVRPTrainer.py(181) :   Encoder layer 11 γ = 1.3715
+[2026-05-07 14:06:20] CVRPTrainer.py(182) :   Decoder γ = 0.5014
+[2026-05-07 14:06:46] CVRPTrainer.py(290) : Epoch  124: (No aug)In 100-nodes instances, multi-greedy score: 16.3905, Gap: 4.7542%
+[2026-05-07 14:08:58] CVRPTrainer.py(290) : Epoch  124: (No aug)In 1000-nodes instances, multi-greedy score: 43.9584, Gap: 18.5168%
+[2026-05-07 14:08:58] CVRPTrainer.py(106) : Epoch  124/1000: Time Est.: Elapsed[1.78h], Remain[312.60h]
+[2026-05-07 14:08:58] CVRPTrainer.py(114) : Saving log_image
+[2026-05-07 14:08:59] CVRPTrainer.py(123) : Saving trained_model
+[2026-05-07 14:08:59] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 14:08:59] CVRPTrainer.py(89) :  Epoch  125: Current learning rate: 0.0001
+[2026-05-07 14:09:00] CVRPTrainer.py(169) : Epoch  125: Trained batches    1/1000(  0.1%), Score: 31.1822,  Loss: -0.4024
+[2026-05-07 14:09:01] CVRPTrainer.py(169) : Epoch  125: Trained batches    2/1000(  0.2%), Score: 28.8577,  Loss: -0.5072
+[2026-05-07 14:09:01] CVRPTrainer.py(169) : Epoch  125: Trained batches    3/1000(  0.3%), Score: 20.2864,  Loss: -0.3524
+[2026-05-07 14:09:03] CVRPTrainer.py(169) : Epoch  125: Trained batches    4/1000(  0.4%), Score: 21.7455,  Loss: -0.3831
+[2026-05-07 14:09:03] CVRPTrainer.py(169) : Epoch  125: Trained batches    5/1000(  0.5%), Score: 18.0038,  Loss: -0.3618
+[2026-05-07 14:12:44] CVRPTrainer.py(169) : Epoch  125: Trained batches  200/1000( 20.0%), Score: 21.8300,  Loss: -0.4245
+[2026-05-07 14:16:20] CVRPTrainer.py(169) : Epoch  125: Trained batches  400/1000( 40.0%), Score: 21.1955,  Loss: -0.3978
+[2026-05-07 14:20:09] CVRPTrainer.py(169) : Epoch  125: Trained batches  600/1000( 60.0%), Score: 21.6162,  Loss: -0.4074
+[2026-05-07 14:24:08] CVRPTrainer.py(169) : Epoch  125: Trained batches  800/1000( 80.0%), Score: 22.1061,  Loss: -0.4170
+[2026-05-07 14:28:04] CVRPTrainer.py(169) : Epoch  125: Trained batches 1000/1000(100.0%), Score: 22.2101,  Loss: -0.4206
+[2026-05-07 14:28:04] CVRPTrainer.py(174) : Epoch  125: Train (100%)  Score: 22.2101,  Loss: -0.4206
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 0 γ = 1.2687
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 1 γ = 1.5875
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 2 γ = 1.5979
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 3 γ = 1.3945
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 4 γ = 1.4670
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 5 γ = 1.4909
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 6 γ = 1.2815
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 7 γ = 1.3487
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 8 γ = 1.3994
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 9 γ = 1.4159
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 10 γ = 1.3800
+[2026-05-07 14:28:04] CVRPTrainer.py(181) :   Encoder layer 11 γ = 1.3730
+[2026-05-07 14:28:04] CVRPTrainer.py(182) :   Decoder γ = 0.5029
+[2026-05-07 14:28:31] CVRPTrainer.py(290) : Epoch  125: (No aug)In 100-nodes instances, multi-greedy score: 16.3976, Gap: 4.7997%
+[2026-05-07 14:30:43] CVRPTrainer.py(290) : Epoch  125: (No aug)In 1000-nodes instances, multi-greedy score: 43.6241, Gap: 17.6155%
+[2026-05-07 14:30:43] CVRPTrainer.py(106) : Epoch  125/1000: Time Est.: Elapsed[2.15h], Remain[313.04h]
+[2026-05-07 14:30:43] CVRPTrainer.py(114) : Saving log_image
+[2026-05-07 14:30:43] CVRPTrainer.py(123) : Saving trained_model
+[2026-05-07 14:30:43] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 14:30:43] CVRPTrainer.py(89) :  Epoch  126: Current learning rate: 0.0001
+[2026-05-07 14:30:45] CVRPTrainer.py(169) : Epoch  126: Trained batches    1/1000(  0.1%), Score: 50.5285,  Loss: -1.3248
+[2026-05-07 14:30:45] CVRPTrainer.py(169) : Epoch  126: Trained batches    2/1000(  0.2%), Score: 28.8624,  Loss: -0.4395
+[2026-05-07 14:30:47] CVRPTrainer.py(169) : Epoch  126: Trained batches    3/1000(  0.3%), Score: 30.5409,  Loss: -0.5544
+[2026-05-07 14:30:48] CVRPTrainer.py(169) : Epoch  126: Trained batches    4/1000(  0.4%), Score: 20.5923,  Loss: -0.4468
+[2026-05-07 14:30:48] CVRPTrainer.py(169) : Epoch  126: Trained batches    5/1000(  0.5%), Score: 20.8522,  Loss: -0.4513
+[2026-05-07 14:34:23] CVRPTrainer.py(169) : Epoch  126: Trained batches  200/1000( 20.0%), Score: 21.7450,  Loss: -0.4203
+[2026-05-07 14:38:03] CVRPTrainer.py(169) : Epoch  126: Trained batches  400/1000( 40.0%), Score: 21.4180,  Loss: -0.4034
+[2026-05-07 14:41:50] CVRPTrainer.py(169) : Epoch  126: Trained batches  600/1000( 60.0%), Score: 21.5363,  Loss: -0.4066
+[2026-05-07 14:45:30] CVRPTrainer.py(169) : Epoch  126: Trained batches  800/1000( 80.0%), Score: 21.6090,  Loss: -0.4085
+[2026-05-07 14:49:14] CVRPTrainer.py(169) : Epoch  126: Trained batches 1000/1000(100.0%), Score: 21.6669,  Loss: -0.4113
+[2026-05-07 14:49:14] CVRPTrainer.py(174) : Epoch  126: Train (100%)  Score: 21.6669,  Loss: -0.4113
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 0 γ = 1.2674
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 1 γ = 1.5869
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 2 γ = 1.5972
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 3 γ = 1.3945
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 4 γ = 1.4675
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 5 γ = 1.4920
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 6 γ = 1.2815
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 7 γ = 1.3492
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 8 γ = 1.4012
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 9 γ = 1.4159
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 10 γ = 1.3785
+[2026-05-07 14:49:14] CVRPTrainer.py(181) :   Encoder layer 11 γ = 1.3720
+[2026-05-07 14:49:14] CVRPTrainer.py(182) :   Decoder γ = 0.5031
+[2026-05-07 14:49:41] CVRPTrainer.py(290) : Epoch  126: (No aug)In 100-nodes instances, multi-greedy score: 16.3686, Gap: 4.6146%
+[2026-05-07 14:51:53] CVRPTrainer.py(290) : Epoch  126: (No aug)In 1000-nodes instances, multi-greedy score: 43.7591, Gap: 17.9793%
+[2026-05-07 14:51:53] CVRPTrainer.py(106) : Epoch  126/1000: Time Est.: Elapsed[2.50h], Remain[312.07h]
+[2026-05-07 14:51:53] CVRPTrainer.py(114) : Saving log_image
+[2026-05-07 14:51:53] CVRPTrainer.py(123) : Saving trained_model
+[2026-05-07 14:51:53] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 14:51:53] CVRPTrainer.py(89) :  Epoch  127: Current learning rate: 0.0001
+[2026-05-07 14:51:55] CVRPTrainer.py(169) : Epoch  127: Trained batches    1/1000(  0.1%), Score: 44.8614,  Loss: -1.1369
+[2026-05-07 14:51:57] CVRPTrainer.py(169) : Epoch  127: Trained batches    2/1000(  0.2%), Score: 43.3665,  Loss: -0.9285
+[2026-05-07 14:51:58] CVRPTrainer.py(169) : Epoch  127: Trained batches    3/1000(  0.3%), Score: 50.7452,  Loss: -1.0348
+[2026-05-07 14:51:59] CVRPTrainer.py(169) : Epoch  127: Trained batches    4/1000(  0.4%), Score: 36.9940,  Loss: -0.7208
+[2026-05-07 14:52:00] CVRPTrainer.py(169) : Epoch  127: Trained batches    5/1000(  0.5%), Score: 34.4210,  Loss: -0.6770
+[2026-05-07 14:55:37] CVRPTrainer.py(169) : Epoch  127: Trained batches  200/1000( 20.0%), Score: 21.9511,  Loss: -0.4389
+[2026-05-07 14:59:23] CVRPTrainer.py(169) : Epoch  127: Trained batches  400/1000( 40.0%), Score: 21.9071,  Loss: -0.4266
+[2026-05-07 15:03:04] CVRPTrainer.py(169) : Epoch  127: Trained batches  600/1000( 60.0%), Score: 21.8827,  Loss: -0.4217
+[2026-05-07 15:06:51] CVRPTrainer.py(169) : Epoch  127: Trained batches  800/1000( 80.0%), Score: 21.9516,  Loss: -0.4211
+[2026-05-07 15:10:39] CVRPTrainer.py(169) : Epoch  127: Trained batches 1000/1000(100.0%), Score: 21.7802,  Loss: -0.4173
+[2026-05-07 15:10:39] CVRPTrainer.py(174) : Epoch  127: Train (100%)  Score: 21.7802,  Loss: -0.4173
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 0 γ = 1.2668
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 1 γ = 1.5894
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 2 γ = 1.6004
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 3 γ = 1.3959
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 4 γ = 1.4677
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 5 γ = 1.4934
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 6 γ = 1.2813
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 7 γ = 1.3487
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 8 γ = 1.4037
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 9 γ = 1.4191
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 10 γ = 1.3810
+[2026-05-07 15:10:39] CVRPTrainer.py(181) :   Encoder layer 11 γ = 1.3768
+[2026-05-07 15:10:39] CVRPTrainer.py(182) :   Decoder γ = 0.5054
+[2026-05-07 15:11:05] CVRPTrainer.py(290) : Epoch  127: (No aug)In 100-nodes instances, multi-greedy score: 16.3897, Gap: 4.7494%
+[2026-05-07 15:13:17] CVRPTrainer.py(290) : Epoch  127: (No aug)In 1000-nodes instances, multi-greedy score: 43.8456, Gap: 18.2124%
+[2026-05-07 15:13:17] CVRPTrainer.py(106) : Epoch  127/1000: Time Est.: Elapsed[2.86h], Remain[311.68h]
+[2026-05-07 15:13:17] CVRPTrainer.py(114) : Saving log_image
+[2026-05-07 15:13:18] CVRPTrainer.py(123) : Saving trained_model
+[2026-05-07 15:13:18] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 15:13:18] CVRPTrainer.py(89) :  Epoch  128: Current learning rate: 0.0001
+[2026-05-07 15:13:20] CVRPTrainer.py(169) : Epoch  128: Trained batches    1/1000(  0.1%), Score: 40.2871,  Loss: -0.9026
+[2026-05-07 15:13:20] CVRPTrainer.py(169) : Epoch  128: Trained batches    2/1000(  0.2%), Score: 23.7799,  Loss: -0.3396
+[2026-05-07 15:13:21] CVRPTrainer.py(169) : Epoch  128: Trained batches    3/1000(  0.3%), Score: 23.2978,  Loss: -0.3046
+[2026-05-07 15:13:22] CVRPTrainer.py(169) : Epoch  128: Trained batches    4/1000(  0.4%), Score: 24.0818,  Loss: -0.3467
+[2026-05-07 15:13:23] CVRPTrainer.py(169) : Epoch  128: Trained batches    5/1000(  0.5%), Score: 25.7740,  Loss: -0.3883
+[2026-05-07 15:17:16] CVRPTrainer.py(169) : Epoch  128: Trained batches  200/1000( 20.0%), Score: 23.7176,  Loss: -0.4756
+[2026-05-07 15:21:07] CVRPTrainer.py(169) : Epoch  128: Trained batches  400/1000( 40.0%), Score: 23.2506,  Loss: -0.4520
+[2026-05-07 15:24:58] CVRPTrainer.py(169) : Epoch  128: Trained batches  600/1000( 60.0%), Score: 22.6290,  Loss: -0.4440
+[2026-05-07 15:28:40] CVRPTrainer.py(169) : Epoch  128: Trained batches  800/1000( 80.0%), Score: 22.4680,  Loss: -0.4325
+[2026-05-07 15:32:30] CVRPTrainer.py(169) : Epoch  128: Trained batches 1000/1000(100.0%), Score: 22.4415,  Loss: -0.4324
+[2026-05-07 15:32:30] CVRPTrainer.py(174) : Epoch  128: Train (100%)  Score: 22.4415,  Loss: -0.4324
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 0 γ = 1.2661
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 1 γ = 1.5919
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 2 γ = 1.6021
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 3 γ = 1.3946
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 4 γ = 1.4655
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 5 γ = 1.4940
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 6 γ = 1.2806
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 7 γ = 1.3484
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 8 γ = 1.4019
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 9 γ = 1.4189
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 10 γ = 1.3819
+[2026-05-07 15:32:30] CVRPTrainer.py(181) :   Encoder layer 11 γ = 1.3770
+[2026-05-07 15:32:30] CVRPTrainer.py(182) :   Decoder γ = 0.5061
+[2026-05-07 15:32:56] CVRPTrainer.py(290) : Epoch  128: (No aug)In 100-nodes instances, multi-greedy score: 16.3798, Gap: 4.6861%
+[2026-05-07 15:35:08] CVRPTrainer.py(290) : Epoch  128: (No aug)In 1000-nodes instances, multi-greedy score: 43.4423, Gap: 17.1251%
+[2026-05-07 15:35:08] CVRPTrainer.py(106) : Epoch  128/1000: Time Est.: Elapsed[3.22h], Remain[312.02h]
+[2026-05-07 15:35:08] CVRPTrainer.py(114) : Saving log_image
+[2026-05-07 15:35:09] CVRPTrainer.py(123) : Saving trained_model
+[2026-05-07 15:35:09] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 15:35:09] CVRPTrainer.py(89) :  Epoch  129: Current learning rate: 0.0001
+[2026-05-07 15:35:11] CVRPTrainer.py(169) : Epoch  129: Trained batches    1/1000(  0.1%), Score: 45.0971,  Loss: -0.9793
+[2026-05-07 15:35:12] CVRPTrainer.py(169) : Epoch  129: Trained batches    2/1000(  0.2%), Score: 23.6862,  Loss: -0.6471
+[2026-05-07 15:35:13] CVRPTrainer.py(169) : Epoch  129: Trained batches    3/1000(  0.3%), Score: 27.6729,  Loss: -0.5602
+[2026-05-07 15:35:14] CVRPTrainer.py(169) : Epoch  129: Trained batches    4/1000(  0.4%), Score: 24.3312,  Loss: -0.4997
+[2026-05-07 15:35:15] CVRPTrainer.py(169) : Epoch  129: Trained batches    5/1000(  0.5%), Score: 21.6066,  Loss: -0.4813
+[2026-05-07 15:38:57] CVRPTrainer.py(169) : Epoch  129: Trained batches  200/1000( 20.0%), Score: 21.8423,  Loss: -0.4243
+[2026-05-07 15:42:46] CVRPTrainer.py(169) : Epoch  129: Trained batches  400/1000( 40.0%), Score: 21.8833,  Loss: -0.4141
+[2026-05-07 15:46:26] CVRPTrainer.py(169) : Epoch  129: Trained batches  600/1000( 60.0%), Score: 21.8088,  Loss: -0.4182
+[2026-05-07 15:49:58] CVRPTrainer.py(169) : Epoch  129: Trained batches  800/1000( 80.0%), Score: 21.2785,  Loss: -0.4058
+[2026-05-07 15:53:54] CVRPTrainer.py(169) : Epoch  129: Trained batches 1000/1000(100.0%), Score: 21.4596,  Loss: -0.4074
+[2026-05-07 15:53:54] CVRPTrainer.py(174) : Epoch  129: Train (100%)  Score: 21.4596,  Loss: -0.4074
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 0 γ = 1.2654
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 1 γ = 1.5934
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 2 γ = 1.6042
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 3 γ = 1.3975
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 4 γ = 1.4676
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 5 γ = 1.4970
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 6 γ = 1.2795
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 7 γ = 1.3482
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 8 γ = 1.4028
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 9 γ = 1.4190
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 10 γ = 1.3827
+[2026-05-07 15:53:54] CVRPTrainer.py(181) :   Encoder layer 11 γ = 1.3779
+[2026-05-07 15:53:54] CVRPTrainer.py(182) :   Decoder γ = 0.5080
+[2026-05-07 15:54:21] CVRPTrainer.py(290) : Epoch  129: (No aug)In 100-nodes instances, multi-greedy score: 16.3894, Gap: 4.7473%
+[2026-05-07 15:56:33] CVRPTrainer.py(290) : Epoch  129: (No aug)In 1000-nodes instances, multi-greedy score: 43.5796, Gap: 17.4954%
+[2026-05-07 15:56:33] CVRPTrainer.py(106) : Epoch  129/1000: Time Est.: Elapsed[3.58h], Remain[311.58h]
+[2026-05-07 15:56:33] CVRPTrainer.py(114) : Saving log_image
+[2026-05-07 15:56:33] CVRPTrainer.py(123) : Saving trained_model
+[2026-05-07 15:56:33] CVRPTrainer.py(82) :  =================================================================
+[2026-05-07 15:56:33] CVRPTrainer.py(89) :  Epoch  130: Current learning rate: 0.0001
+[2026-05-07 15:56:35] CVRPTrainer.py(169) : Epoch  130: Trained batches    1/1000(  0.1%), Score: 42.5463,  Loss: -0.6385
+[2026-05-07 15:56:37] CVRPTrainer.py(169) : Epoch  130: Trained batches    2/1000(  0.2%), Score: 45.1162,  Loss: -0.8804
+[2026-05-07 15:56:38] CVRPTrainer.py(169) : Epoch  130: Trained batches    3/1000(  0.3%), Score: 28.1042,  Loss: -0.5805
+[2026-05-07 15:56:40] CVRPTrainer.py(169) : Epoch  130: Trained batches    4/1000(  0.4%), Score: 28.3434,  Loss: -0.5902
+[2026-05-07 15:56:42] CVRPTrainer.py(169) : Epoch  130: Trained batches    5/1000(  0.5%), Score: 29.6991,  Loss: -0.6160
+[2026-05-07 16:00:26] CVRPTrainer.py(169) : Epoch  130: Trained batches  200/1000( 20.0%), Score: 22.6849,  Loss: -0.4207
+[2026-05-07 16:04:21] CVRPTrainer.py(169) : Epoch  130: Trained batches  400/1000( 40.0%), Score: 22.4980,  Loss: -0.4396
+[2026-05-07 16:08:06] CVRPTrainer.py(169) : Epoch  130: Trained batches  600/1000( 60.0%), Score: 22.1488,  Loss: -0.4219
+[2026-05-07 16:11:51] CVRPTrainer.py(169) : Epoch  130: Trained batches  800/1000( 80.0%), Score: 21.8800,  Loss: -0.4125
